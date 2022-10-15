@@ -19,24 +19,25 @@ Make sure that during installation checked "Add Graphviz to the system PATH for 
 
 # Usage
 
-One time install
+1. One time install
 ```bash 
 go install github.com/google/pprof@latest
 ```
-Dump heap to a file(ensure that application is run!-using new terminal)
+2. Dump heap to a file(ensure that application is run!-using new terminal)
 ```bash 
 curl http://<HOSTNAME>:<PORT>/debug/pprof/heap > heap.out
 ```
-Use pprof to interact with heap
+3. Use pprof to interact with heap
 ```bash 
 go tool pprof heap.out
 ```
-Inside the new command prompt
+4. Inside the new command prompt
 ```bash 
 png
 ```
 
-for other output type file using `help` command
+💡 Everytime for reporting new result you should repeat levels 2,3,4\
+💡 After run `go run main.go` go to [localhost](http://localhost:8080/) on browser then repeat previous level
 
 # Tips
 In the diagram, each box is a function, and each arrow means a function call. The bigger the box, the higher memory usage. From the graph above, the blame goes to runtime function “allocm” (the largest box near the bottom).
