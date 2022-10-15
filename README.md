@@ -17,14 +17,14 @@ Make sure that during installation checked "Add Graphviz to the system PATH for 
 
 ![](../754680b6a7f66af5318b6deed62a3e8f5c0d34f2.png)
 
-## Usage
+# Usage
 
-# one time install
-go install github.com/google/pprof@latest
-# Dump heap to a file
-curl http://<HOSTNAME>:<PORT>/debug/pprof/heap > heap.out
-# Use pprof to interact with heap
-go tool pprof heap.out
-# Inside the new command prompt
-png
-# for other output type file using help command
+## one time install
+`go install github.com/google/pprof@latest`
+## Dump heap to a file
+`curl http://<HOSTNAME>:<PORT>/debug/pprof/heap > heap.out`
+## Use pprof to interact with heap
+`go tool pprof heap.out`
+## Inside the new command prompt
+`png`
+## for other output type file using help command
