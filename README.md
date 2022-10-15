@@ -5,12 +5,12 @@
 - Graphviz
 
 ## Installation Graphviz in windows
-1. Visit the download location 2.0k
-2. Download and run the 32-bit 224 or 64-bit 3.9k exe file.
+1. Visit the [download location](https://gitlab.com/graphviz/graphviz/-/releases)
+2. Download and run the [32-bit](https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/6.0.2/windows_10_cmake_Release_graphviz-install-6.0.2-win32.exe) or [64-bit](https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/6.0.2/windows_10_cmake_Release_graphviz-install-6.0.2-win64.exe) exe file.
 3. Ignore any security warnings you might get.
 4. During the installation, make sure you select Add Graphviz top the system PATH for current user.
 5. When the installation is finished, start CMD as an administrator
-6. Restart any applications or Command prompts where you want to use Graphviz.
+6. Run command `dot`
 
 **Note**
 Make sure that during installation checked "Add Graphviz to the system PATH for current user"
@@ -26,5 +26,6 @@ Make sure that during installation checked "Add Graphviz to the system PATH for 
 ## Use pprof to interact with heap
 `go tool pprof heap.out`
 ## Inside the new command prompt
-`png`
-## for other output type file using help command
+`png` 
+
+for other output type file using `help` command
