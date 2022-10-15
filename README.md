@@ -20,13 +20,13 @@ Make sure that during installation checked "Add Graphviz to the system PATH for 
 # Usage
 
 -One time install\
-`go install github.com/google/pprof@latest`
+`go install github.com/google/pprof@latest`\
 -Dump heap to a file(ensure that application is run!-using new terminal)\
-`curl http://<HOSTNAME>:<PORT>/debug/pprof/heap > heap.out`
+`curl http://<HOSTNAME>:<PORT>/debug/pprof/heap > heap.out`\
 -Use pprof to interact with heap\
-`go tool pprof heap.out`
+`go tool pprof heap.out`\
 -Inside the new command prompt\
-`png` 
+`png`\
 
 for other output type file using `help` command
 
