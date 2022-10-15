@@ -1,6 +1,6 @@
 # Memory Leak checking in golang service
 
-##Dependencies
+## Dependencies
 - Gin framework
 - Graphviz
 
