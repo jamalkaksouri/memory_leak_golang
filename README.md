@@ -1,5 +1,8 @@
 # Memory Leak checking in golang service
 
+Sometimes, we find pods restarting several times a day without any error. The memory consumption keeps going up, until it reaches the memory limit.\
+We have a process to diagnose memory leak for Go services. Tools such as pprof and minikube can help us finding the root cause.
+
 ## Dependencies
 - Gin framework
 - Graphviz
