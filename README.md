@@ -41,9 +41,9 @@ png
 
 # routes
 
-🔗 [http://localhost:8080/append-slice](http://localhost:8080/append-slice)\
-🔗 [http://localhost:8080/hanging](http://localhost:8080/hanging)\
-🔗 [http://localhost:8080/streams](http://localhost:8080/streams)
+🔗 **[http://localhost:8080/append-slice](http://localhost:8080/append-slice)**\
+🔗 **[http://localhost:8080/hanging](http://localhost:8080/hanging)**\
+🔗 **[http://localhost:8080/streams](http://localhost:8080/streams)**
 
 
 # Tips
