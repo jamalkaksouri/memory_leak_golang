@@ -37,7 +37,14 @@ png
 ```
 
 💡 Everytime for reporting new result you should repeat levels 2,3,4\
-💡 After run `go run main.go` go to [localhost](http://localhost:8080/) on browser then repeat previous level
+💡 After run `go run main.go` go to [localhost](http://localhost:8080/append-slice) on browser then repeat previous level
+
+# routes
+```bash
+[http://localhost:8080/append-slice](http://localhost:8080/append-slice)
+[http://localhost:8080/append-slice](http://localhost:8080/hanging)
+[http://localhost:8080/append-slice](http://localhost:8080/streams)
+```
 
 # Tips
 In the diagram, each box is a function, and each arrow means a function call. The bigger the box, the higher memory usage. From the graph above, the blame goes to runtime function “allocm” (the largest box near the bottom).
